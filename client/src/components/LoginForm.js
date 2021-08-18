@@ -48,6 +48,7 @@ const LoginForm = () => {
       console.error(e);
     }
 
+    // clear form values
     setUserFormData({
       email: '',
       password: '',
@@ -91,7 +92,7 @@ const LoginForm = () => {
             required
           />
           <Form.Control.Feedback type="invalid">
-            You must enter a password.
+            Password is required!
           </Form.Control.Feedback>
         </Form.Group>
         <Button
