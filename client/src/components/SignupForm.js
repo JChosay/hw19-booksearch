@@ -85,7 +85,7 @@ const SignupForm = () => {
             required
           />
           <Form.Control.Feedback type="invalid">
-            Username is required!
+            You must enter a Username.
           </Form.Control.Feedback>
         </Form.Group>
 
@@ -100,7 +100,7 @@ const SignupForm = () => {
             required
           />
           <Form.Control.Feedback type="invalid">
-            Email is required!
+            You must enter an email address.
           </Form.Control.Feedback>
         </Form.Group>
 
@@ -115,7 +115,7 @@ const SignupForm = () => {
             required
           />
           <Form.Control.Feedback type="invalid">
-            Password is required!
+            You must enter a password.
           </Form.Control.Feedback>
         </Form.Group>
         <Button
